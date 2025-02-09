@@ -6,6 +6,26 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="http://www.ptuan.com" method="POST">
+        <div>
+            Chọn sản phẩm:
+            <select name="prd" >
+                <option value="Sản phẩm 1">Sản phẩm 1</option>
+                <option value="Sản phẩm 2">Sản phẩm 2</option>
+                <option value="Sản phẩm 3">Sản phẩm 3</option>
+                <option value="Sản phẩm 4">Sản phẩm 4</option>
+                <option value="Sản phẩm 5">Sản phẩm 5</option>
+            </select>
+        </div>
+        <div>
+            <label for="sl">Số lượng</label>
+            <input type="number" name="sl" id="sl" min="1" max="100">
+        </div>
+        <div>
+            <label for="add">Địa chỉ giao hàng</label>
+            <input type="text" name="add" id="add">  
+        </div>
+        <input type="submit" value="Đặt hàng">
+    </form>
 </body>
 </html>
