@@ -1,0 +1,43 @@
+
+ul{
+    background-color: aquamarine;
+}
+ul{
+    /* ghi đè lại thuộc tính */
+    background-color: purple;
+}
+h1{
+    background-color: red !important;
+}
+div{
+    background-color: green;
+}
+li{
+    color:white;
+}
+#second-li{
+    color:pink;
+    background-color: black;
+}
+.demo-class{
+    color:yellow;
+    background-color: black;
+}
+.text-transform {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+}
+.firstcontent p{
+    background-color: aqua;
+}
+#secondcontent{
+    background-color: aquamarine;
+}
+.secondcontent{
+    background-color: aliceblue;
+}
+img{
+    -ms-flex-item-align: center;
+}
