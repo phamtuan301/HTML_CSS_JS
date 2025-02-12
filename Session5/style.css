@@ -1,43 +1,36 @@
 
-ul{
-    background-color: aquamarine;
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(57, 54, 54);
+    font-size: 14px;
 }
-ul{
-    /* ghi đè lại thuộc tính */
-    background-color: purple;
+h3 {
+    font-size: 35px;
 }
-h1{
-    background-color: red !important;
+.syntax {
+    color:#da1331;
+    background-color: #f4f4f4;
 }
-div{
-    background-color: green;
-}
-li{
-    color:white;
-}
-#second-li{
-    color:pink;
-    background-color: black;
-}
-.demo-class{
-    color:yellow;
-    background-color: black;
-}
-.text-transform {
-    font-size: 13px;
-    font-weight: bold;
+.demo-figure {
     text-align: center;
-    text-decoration: underline;
+    border: 3px solid green;
+    line-height: 4;
+    margin-bottom: 20px;
 }
-.firstcontent p{
-    background-color: aqua;
+.example {
+    background-color: #e5e9ed98;
+    padding: 17px;
 }
-#secondcontent{
-    background-color: aquamarine;
+h4 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
 }
-.secondcontent{
-    background-color: aliceblue;
+.main {
+    background-color: white;
+    border-left: green 3px solid;
+    padding: 10px;
 }
-img{
-    -ms-flex-item-align: center;
-}
+
+
+
