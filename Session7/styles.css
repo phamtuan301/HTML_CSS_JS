@@ -1,0 +1,35 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 6px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box h2 {
+    color: rgb(186, 70, 70);
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: black;
+    margin: 0;
+}
