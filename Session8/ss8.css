@@ -1,0 +1,39 @@
+ * {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2d2d2d;
+    margin: 0;
+    padding: 0;
+ }
+ .blog-container{
+    width: 418px;
+    position: relative;
+ }
+ .blog-container img {
+    width: 100%;
+ }
+ .blog-container h3 {
+    text-transform: uppercase;
+    border-left: 5px solid rgb(212, 140, 6);
+    padding-left: 20px;
+    font-size: 29px;
+    margin-bottom: 20px;
+ }
+.blog-title {
+   font-size: 29px;
+   text-decoration: none;
+   padding: 20px;
+}
+.blog-title a {
+   font-size: 29px;
+   text-decoration: none;
+   position:absolute;
+   top: 480px;
+   left: 0;
+   background-color: black;
+   color: white;
+   background: rgb(8,0,0);
+   background: linear-gradient(0deg, rgba(8,0,0,1) 28%, rgba(255,255,255,1) 42%, rgba(208,203,203,0) 100%);
+}
+
+

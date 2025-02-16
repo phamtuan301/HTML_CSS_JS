@@ -1,0 +1,31 @@
+.project-container {
+    width: 480px;
+    border: 1px solid hsl(225deg 20% 92.16%);
+    border-radius: 10px;
+    padding: 30px;
+}
+.project-container h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.project-container button {
+    background-color: rgb(205, 160, 160);
+    color: rgb(201, 41, 41);
+    border: 1px solid rgb(223, 99, 99);
+    font-size: 16px;
+    margin-bottom: 25px;
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+.progress-title {
+    position:relative
+}
+.progress-title .progress-value {
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+.progress-bar {
+    
+}
+
