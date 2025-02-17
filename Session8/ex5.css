@@ -19,9 +19,9 @@ h1 {
     margin-bottom: 5px;
 }
 .underline {
-    width: 50px;
-    height: 3px;
-    background: #666;
+    width: 90px;
+    height: 1.5px;
+    background: #eaeaea;
     margin: 10px auto;
 }
 p {
