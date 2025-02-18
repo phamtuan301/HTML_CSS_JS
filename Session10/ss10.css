@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+    font-family: "Open Sans", serif;
+}
+.container:nth-of-type(1) .child {
+    background-color: pink;
+    margin-bottom: 10px;
+}
+.row {
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+}
+.row .child {
+    background-color: pink;
+    width: calc(33.33%-20px);
+
+}
+.blog-container {
+    height: 200px;
+    background-image: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.blog-container .title {
+    
+}

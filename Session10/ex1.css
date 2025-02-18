@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #e0e0e0;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.logo {
+    font-size: 35px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #b0b0b0;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-button .icon {
+    width: 16px;
+    height: 16px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBkPSJNMTUuMzM0IDE0LjI2NmwtMy4zNzUtMy4zNzVhNi4wMDEgNi4wMDEgMCAxIDAtMS4wNjYuOTk3bDMuMzc1IDMuMzc1YTEuMDAxIDEuMDAxIDAgMCAwIDEuNDE0LTEuNDE0ek0yLjY2NyA2LjY2N2E0LjAwMSA0LjAwMSAwIDEgMSA4IDAgNC4wMDEgNC4wMDEgMCAwIDEtOCAwem0wIDZhMiAwMCAwIDAgNCAwIDIgMCAwIDAgLTQgMHoiLz4KPC9zdmc+Cg==');
+    background-size: cover;
+    color:white
+}
