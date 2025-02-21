@@ -60,7 +60,6 @@ main{
         height: 70px;
     }
     main{
-        order: 1;
         height: 100px;
     }
     section{
@@ -68,17 +67,16 @@ main{
         flex-wrap: wrap;
     }
     .section2{
-        width: 50%;
+        width: 100%;
         height: 70px;
     }
     .section1 div{
-        width: 50%;
+        width: 100%;
         height: 70px;
     }
 }
 @media screen and (max-width: 480px) {
     main{
-        order: 1;
         height: 100px;
     }
 }

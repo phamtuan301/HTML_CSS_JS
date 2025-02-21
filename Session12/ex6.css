@@ -1,0 +1,9 @@
+.card-body{
+    text-align: center;
+}
+.card:hover {
+    background-color: #ffc107;
+}
+.card{
+    gap: 20px;
+}
