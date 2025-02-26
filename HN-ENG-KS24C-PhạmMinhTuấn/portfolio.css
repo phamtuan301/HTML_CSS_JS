@@ -250,6 +250,7 @@ h3 {
         flex-direction: column;
         width:100%;
         justify-content: center;
+        text-align: center; 
     }
     .content .main1 {
         order:1;
