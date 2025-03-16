@@ -26,9 +26,6 @@ do {
             searchEmployee();
             break;
         case 5:
-            displayEmployees();
-            break;
-        case 6:
             console.log("Cảm ơn bạn đã dùng chương trình");
             break;
         default:
@@ -80,12 +77,6 @@ function searchEmployee() {
         console.log("Không tìm thấy nhân viên có tên này");
     }
 }
-function displayEmployees() {
-    if (employees.length === 0) {
-        console.log("Hiện không có nhân viên nào.");
-    } else {
-        employees.forEach(emp => console.log(`ID: ${emp.id}, Tên: ${emp.name}, Vị trí: ${emp.position}, Lương: ${emp.salary}`));
-    }
-}
+
 
 
