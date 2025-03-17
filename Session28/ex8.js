@@ -9,29 +9,6 @@ Quản lý nhân viên
 6. Thoát
 Lựa chọn của bạn là:
 `
-let choice;
-do {
-    choice = +prompt(menu);
-    switch (choice) {
-        case 1:
-            addEmployee();
-            break;
-        case 2:
-            deleteEmployee();
-            break;
-        case 3:
-            updateSalary();
-            break;
-        case 4:
-            searchEmployee();
-            break;
-        case 5:
-            console.log("Cảm ơn bạn đã dùng chương trình");
-            break;
-        default:
-            console.log("Lựa chọn không hợp lệ! Vui lòng chọn lại.");
-    }
-} while (choice !== "6");
 function addEmployee() {
     let id = +prompt("Nhập ID nhân viên:");
     let name = prompt("Nhập tên nhân viên:");
@@ -77,6 +54,28 @@ function searchEmployee() {
         console.log("Không tìm thấy nhân viên có tên này");
     }
 }
-
+let choice;
+do {
+    choice = +prompt(menu);
+    switch (choice) {
+        case 1:
+            addEmployee();
+            break;
+        case 2:
+            deleteEmployee();
+            break;
+        case 3:
+            updateSalary();
+            break;
+        case 4:
+            searchEmployee();
+            break;
+        case 5:
+            console.log("Cảm ơn bạn đã dùng chương trình");
+            break;
+        default:
+            console.log("Lựa chọn không hợp lệ! Vui lòng chọn lại.");
+    }
+} while (choice !== "6");
 
 
