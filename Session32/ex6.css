@@ -1,0 +1,24 @@
+body {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#upper {
+    width:50px;
+    height:45px;
+    background-color: rgb(84, 220, 84);
+    color: white;
+    border-radius: 8px;
+    border: solid;
+}
+#lower {
+    width:50px;
+    height:45px;
+    background-color: rgb(241, 18, 18);
+    color: white;
+    border-radius: 8px;
+    border: solid;
+}
+p {
+    font-size: 18px;
+}
