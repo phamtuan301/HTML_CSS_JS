@@ -17,7 +17,7 @@ function displayProducts(filteredProducts) {
             <img src="${product.image}" alt="${product.name}">
             <h3>${product.name}</h3>
             <p>${product.description}</p>
-            <p><strong>${product.price.toLocaleString()} VNĐ</strong></p>
+            <p><b>${product.price.toLocaleString()} VNĐ</b></p>
             <button class="buy-button">Buy</button>
         `;
         productList.appendChild(productElement);
