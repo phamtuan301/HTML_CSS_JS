@@ -1,0 +1,66 @@
+body {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+#input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#background {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  display: none;
+}
+#addbookmark-window {
+  width: 400px;
+  height: 250px;
+  border-radius: 3px;
+  border: solid 1px rgb(209, 190, 190);
+  border-radius: 3px;
+  background-color: rgb(243, 236, 236);
+  margin-top: 250px;
+  margin-left: 570px;
+}
+.head {
+  height: 35px;
+  background-color: purple;
+  border: solid 2px purple;
+  border-radius: 3px;
+  color: white;
+}
+input {
+  margin-top: 10px;
+  width: 90%;
+}
+label {
+  justify-content: flex-start;
+  color: purple;
+}
+#save {
+  background-color: purple;
+  border: solid 1px purple;
+  border-radius: 3px;
+  margin-top: 20px;
+  color: white;
+  height: 35px;
+}
+#addbookmark-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: white;
+  font-size: 40px;
+  color: white;
+}
+.bookmark {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: white;
+  font-size: 40px;
+  color: white;
+}
